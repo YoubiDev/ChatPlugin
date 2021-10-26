@@ -17,7 +17,7 @@ public class PlayerChatListener implements Listener {
         User user = LuckPermsProvider.get().getPlayerAdapter(Player.class).getUser(p);
 
         String Message = e.getMessage();
-        Message.replace("%", "Prozent");
+        Message.replace("#", "Hashtag");
 
         if (user.getPrimaryGroup().equalsIgnoreCase("admin")){
             e.setFormat("§4" + p.getName() + " §8● §f" + Message);
