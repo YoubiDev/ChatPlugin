@@ -1,0 +1,3 @@
+name: ChatPlugin
+version: 1.0
+main: net.uniqmc.chatplugin.Chatplugin
